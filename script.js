@@ -26,14 +26,14 @@ class Cat extends Animal {
 }
 
 // Example usage:
-const myCat = new Cat('Cat');
-const myDog = new Dog('Dog');
+const myCat = new Cat();
+const myDog = new Dog();
 
-console.log(myCat.species); // Output: "Cat"
+// console.log(myCat.species); // Output: "Cat"
 myCat.makeSound(); // Output: "The Cat makes a sound."
 myCat.purr(); // Output: "purr"
 
-console.log(myDog.species); // Output: "Dog"
+// console.log(myDog.species); // Output: "Dog"
 myDog.makeSound(); // Output: "The Dog makes a sound."
 myDog.bark(); // Output: "woof"
 
